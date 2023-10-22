@@ -33,7 +33,7 @@ function Header() {
 // handles fetching request
 // returns component LoadingIndicator, UserList, and ErrorDisplay
 function FetchUsers() {
-  const url = "https://jsonplaceholder.typicode.com/user";
+  const url = "https://jsonplaceholder.typicode.com/users";
 
   const [allUsers, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
