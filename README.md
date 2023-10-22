@@ -3,10 +3,10 @@
 Hiii this is my application for rendering a user list.
 
 To start the application, run 
-npm start
+`npm start`
 
 If there is a @mui/material related error, run
-npm install @mui/material @emotion/react @emotion/styled
+`npm install @mui/material @emotion/react @emotion/styled`
 
 
 Notes:
