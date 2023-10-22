@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  padding-top: 5vh;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+  border: 3px solid rgb(169, 185, 208);
+}
+
+th,
+td {
+  /* display: flex; */
+  padding: 10px;
+  font-size: calc(10px + 0.5vmin);
+}
+
+button {
+  display: inline-block;
+  appearance:none;
+  -webkit-appearance:none;
+  padding: 7.5px;
+  background-color:#0a36a3;
+  color:#fff;
+  font-weight:600;
+  font-size: 16px;
+  border: none;
+  border-radius:5px;
+}
